@@ -1,0 +1,197 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Server specific (Spring Boot)
+server/target/
+server/.mvn/
+server/*.jar
+server/.idea/
+server/.vscode/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+gradle-wrapper.properties
+.gradletasknamecache
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+*.orig
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata
+
+# IDE - NetBeans
+nbproject/
+.nb-gradle/
+.nbgrader
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Spring Boot
+application-local.properties
+application-dev.properties
+application-prod.properties
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+
+# Node + Angular
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+angular-cli-dev.log
+dist/
+.angular/
+.metadata
+
+# Angular generated files
+src/main/webapp/dist/
+
+# Client specific (Angular)
+client/node_modules/
+client/dist/
+client/.angular/
+client/npm-debug.log
+client/npm-debug.log.*
+client/yarn-error.log
+client/.vscode/
+client/.idea/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.trashes
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# IntelliJ specific files
+*.iml
+*.iws
+*.ipr
+.idea/
+out/
+
+# Directories
+.m2/
+.gradle/
+.vscode/
+.idea/
+
+# Build output
+bin/
+build/
+dist/
+target/
+
+# Maven files
+maven-build.properties
+
+# Application logs
+logs/
+application.log
+stdout.log
+stderr.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lock files (optional - uncomment if you want to commit lock files)
+# package-lock.json
+# yarn.lock
+
+# Sensitive data
+*.key
+*.pem
+database.properties
+local.properties
+secrets.properties
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Misc
+.gradle
+local.properties
+.classpath
+.factorypath
+.project
+.pydevproject
+.settings
+.springBeans
+.sts4-cache
+*.orig
+*.patch
+*.orig.txt
