@@ -1,4 +1,4 @@
-# SelfWise - Library Management System
+# 📚 SelfWise - Library Management System
 
 <div align="center">
 
