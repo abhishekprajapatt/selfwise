@@ -124,6 +124,18 @@ The system implements robust role-based access control (RBAC) with separate work
 
 ---
 
+## 📊 API Documentation Screenshots
+
+### Swagger/OpenAPI Documentation
+
+<img width="892" alt="API Documentation 1" src="https://github.com/user-attachments/assets/6d39860a-8eb1-45a2-a12d-2154c8edd8d8" />
+<img width="896" alt="API Documentation 2" src="https://github.com/user-attachments/assets/750c8b35-d7f3-4f4c-8272-babe38ce5d92" />
+<img width="896" alt="API Documentation 3" src="https://github.com/user-attachments/assets/680a0a2d-44cc-40ff-bbe2-596cdf9c841a" />
+<img width="848" alt="API Documentation 4" src="https://github.com/user-attachments/assets/8c5350bb-8184-4e9b-a34f-a5d9e5e5b126" />
+<img width="857" alt="API Documentation 5" src="https://github.com/user-attachments/assets/12d9bba4-c69c-4ba3-a389-0334abe68325" />
+
+---
+
 ## 🚀 Installation & Setup
 
 ### Prerequisites
@@ -232,17 +244,6 @@ USE library_management;
 
 ---
 
-## 📊 API Documentation Screenshots
-
-### Swagger/OpenAPI Documentation
-
-<img width="892" alt="API Documentation 1" src="https://github.com/user-attachments/assets/6d39860a-8eb1-45a2-a12d-2154c8edd8d8" />
-<img width="896" alt="API Documentation 2" src="https://github.com/user-attachments/assets/750c8b35-d7f3-4f4c-8272-babe38ce5d92" />
-<img width="896" alt="API Documentation 3" src="https://github.com/user-attachments/assets/680a0a2d-44cc-40ff-bbe2-596cdf9c841a" />
-<img width="848" alt="API Documentation 4" src="https://github.com/user-attachments/assets/8c5350bb-8184-4e9b-a34f-a5d9e5e5b126" />
-<img width="857" alt="API Documentation 5" src="https://github.com/user-attachments/assets/12d9bba4-c69c-4ba3-a389-0334abe68325" />
-
----
 
 ## 📝 Database Schema
 
