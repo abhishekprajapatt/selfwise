@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**A Full-Stack Web Application for Comprehensive Library Management with Role-Based Access Control**
+**A Full-Stack Web Application for Library Management with Role-Based Access Control**
 
 [Live Demo](#-ui-preview) • [API Docs](#-api-documentation) • [Tech Stack](#-technologies) • [Setup Guide](#-installation--setup)
 
