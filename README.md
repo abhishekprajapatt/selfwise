@@ -1,8 +1,8 @@
-# SelfWise - Library Management System
+# 📚 SelfWise - Library Management System
 
 <div align="center">
 
-**A Full-Stack Web Application for Comprehensive Library Management with Role-Based Access Control**
+**A Full-Stack Web Application for Library Management with Role-Based Access Control**
 
 [Live Demo](#-ui-preview) • [API Docs](#-api-documentation) • [Tech Stack](#-technologies) • [Setup Guide](#-installation--setup)
 
@@ -124,6 +124,18 @@ The system implements robust role-based access control (RBAC) with separate work
 
 ---
 
+## 📊 API Documentation Screenshots
+
+### Swagger/OpenAPI Documentation
+
+<img width="892" alt="API Documentation 1" src="https://github.com/user-attachments/assets/6d39860a-8eb1-45a2-a12d-2154c8edd8d8" />
+<img width="896" alt="API Documentation 2" src="https://github.com/user-attachments/assets/750c8b35-d7f3-4f4c-8272-babe38ce5d92" />
+<img width="896" alt="API Documentation 3" src="https://github.com/user-attachments/assets/680a0a2d-44cc-40ff-bbe2-596cdf9c841a" />
+<img width="848" alt="API Documentation 4" src="https://github.com/user-attachments/assets/8c5350bb-8184-4e9b-a34f-a5d9e5e5b126" />
+<img width="857" alt="API Documentation 5" src="https://github.com/user-attachments/assets/12d9bba4-c69c-4ba3-a389-0334abe68325" />
+
+---
+
 ## 🚀 Installation & Setup
 
 ### Prerequisites
@@ -204,45 +216,34 @@ USE library_management;
 
 ### Home Page
 
-![Home Dashboard](screencapture-localhost-4200-home-2026-03-06-02_15_38.png)
+<img width="1920" height="5871" alt="screencapture-localhost-4200-home-2026-03-06-02_15_38" src="https://github.com/user-attachments/assets/5ff380dd-8a84-462c-aabb-b6c256ba146d" />
 
 ### Users Management
 
-![Users Management](screencapture-localhost-4200-users-2026-03-06-02_23_38.png)
+<img width="1920" height="1068" alt="screencapture-localhost-4200-users-2026-03-06-02_23_38" src="https://github.com/user-attachments/assets/de2a2932-677b-4937-9aef-d6be839238c6" />
 
 ### Books Catalog
 
-![Books Catalog](screencapture-localhost-4200-books-2026-03-06-02_24_07.png)
+<img width="1920" height="1068" alt="screencapture-localhost-4200-catalog-2026-03-06-02_25_05" src="https://github.com/user-attachments/assets/adca8dcb-777d-4152-95ea-4ace14f5168f" />
 
 ### Book Inventory
 
-![Book Inventory](screencapture-localhost-4200-catalog-2026-03-06-02_25_05.png)
+<img width="1920" height="1068" alt="screencapture-localhost-4200-books-2026-03-06-02_24_07" src="https://github.com/user-attachments/assets/caaed743-d374-49fb-8ddb-df2cd3638c78" />
 
 ### Checkout Management
 
-![Checkout Management](screencapture-localhost-4200-checkout-2026-03-06-02_26_35.png)
+<img width="1920" height="1068" alt="screencapture-localhost-4200-checkout-2026-03-06-02_26_35" src="https://github.com/user-attachments/assets/18d0dfc1-f513-461a-92f5-4963739a124e" />
 
 ### Reports & Analytics
 
-![Reports Dashboard](screencapture-localhost-4200-reports-2026-03-06-02_27_14.png)
+<img width="1920" height="2043" alt="screencapture-localhost-4200-reports-2026-03-06-02_27_14" src="https://github.com/user-attachments/assets/89275286-6c0d-48f7-8e70-33dde8cdb091" />
 
 ### Fine Management
 
-![Fines Management](screencapture-localhost-4200-fines-2026-03-06-02_27_44.png)
+<img width="1920" height="1351" alt="screencapture-localhost-4200-fines-2026-03-06-02_27_44" src="https://github.com/user-attachments/assets/ad815826-2720-4cfb-9085-3901cca3f326" />
 
 ---
 
-## 📊 API Documentation Screenshots
-
-### Swagger/OpenAPI Documentation
-
-<img width="892" alt="API Documentation 1" src="https://github.com/user-attachments/assets/6d39860a-8eb1-45a2-a12d-2154c8edd8d8" />
-<img width="896" alt="API Documentation 2" src="https://github.com/user-attachments/assets/750c8b35-d7f3-4f4c-8272-babe38ce5d92" />
-<img width="896" alt="API Documentation 3" src="https://github.com/user-attachments/assets/680a0a2d-44cc-40ff-bbe2-596cdf9c841a" />
-<img width="848" alt="API Documentation 4" src="https://github.com/user-attachments/assets/8c5350bb-8184-4e9b-a34f-a5d9e5e5b126" />
-<img width="857" alt="API Documentation 5" src="https://github.com/user-attachments/assets/12d9bba4-c69c-4ba3-a389-0334abe68325" />
-
----
 
 ## 📝 Database Schema
 
