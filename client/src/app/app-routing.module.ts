@@ -9,18 +9,19 @@ import { FinesComponent } from './pages/fines.component';
 import { ReportsComponent } from './pages/reports.component';
 import { LoginComponent } from './pages/login.component';
 import { SignupComponent } from './pages/signup.component';
+import { AuthGuard } from './services/auth.guard';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'users', component: UsersComponent },
-  { path: 'books', component: BooksComponent },
-  { path: 'catalog', component: CatalogComponent },
-  { path: 'checkout', component: CheckoutComponent },
-  { path: 'fines', component: FinesComponent },
-  { path: 'reports', component: ReportsComponent },
+  { path: 'users', component: UsersComponent, canActivate: [AuthGuard] },
+  { path: 'books', component: BooksComponent, canActivate: [AuthGuard] },
+  { path: 'catalog', component: CatalogComponent, canActivate: [AuthGuard] },
+  { path: 'checkout', component: CheckoutComponent, canActivate: [AuthGuard] },
+  { path: 'fines', component: FinesComponent, canActivate: [AuthGuard] },
+  { path: 'reports', component: ReportsComponent, canActivate: [AuthGuard] },
 ];
 
 @NgModule({

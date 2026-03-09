@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, CommonModule],
   template: `
     <div class="home">
       <!-- Hero Section -->
@@ -18,7 +20,12 @@ import { RouterModule } from '@angular/router';
             Professional book management system designed for modern libraries
           </p>
           <div class="cta-buttons">
-            <button class="btn-primary" routerLink="/users">Get Started</button>
+            <button
+              class="btn-primary"
+              [routerLink]="isLoggedIn ? '/users' : '/login'"
+            >
+              Get Started
+            </button>
             <button class="btn-secondary">Learn More</button>
           </div>
         </div>
@@ -197,7 +204,10 @@ import { RouterModule } from '@angular/router';
         <div class="cta-content">
           <h2>Ready to Transform Your Library?</h2>
           <p>Start managing your library with SelfWise today</p>
-          <button class="btn-primary-large" routerLink="/users">
+          <button
+            class="btn-primary-large"
+            [routerLink]="isLoggedIn ? '/users' : '/login'"
+          >
             Begin Here
           </button>
         </div>
@@ -706,4 +716,12 @@ import { RouterModule } from '@angular/router';
     `,
   ],
 })
-export class HomeComponent {}
+export class HomeComponent implements OnInit {
+  isLoggedIn = false;
+
+  constructor(private authService: AuthService) {}
+
+  ngOnInit(): void {
+    this.isLoggedIn = this.authService.isLoggedIn();
+  }
+}

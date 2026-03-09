@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FineService {
-  private apiUrl = 'http://localhost:8080/api/fines';
+  private apiUrl = `${environment.apiBaseUrl}/fines`;
 
   constructor(private http: HttpClient) {}
 
